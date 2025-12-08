@@ -3,7 +3,7 @@ import image1 from '../assets/image1.avif'
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useDispatch } from "react-redux";
 import { decrementQty, incrementQty, RemoveItem } from "../redux/cartSlice";
-import { toast } from "react-toastify";
+
 
 const Card2 = ({name,image,id,price,qty}) => {
   const dispatch = useDispatch()

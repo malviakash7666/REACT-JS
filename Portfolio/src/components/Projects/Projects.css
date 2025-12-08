@@ -1,0 +1,40 @@
+#projects {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    text-align: center;
+
+
+}
+
+.slidebar {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 20px;
+    scrollbar-width: none;
+    padding: 20px;
+
+}
+#para{
+    font-size: 4vmax;
+      background: linear-gradient(to right, rgb(237, 86, 86), white);
+    background-clip: text;
+    color: transparent;
+}
+@media (max-width:750px){
+#projects {
+    margin-top: 70px;
+}
+.slidebar{
+    font-size: 10px;
+  
+}
+}

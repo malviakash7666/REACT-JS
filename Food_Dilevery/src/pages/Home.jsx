@@ -23,7 +23,7 @@ const Home = () => {
     }
   };
   let items = useSelector((state) => state.cart);
-  let subTotal = items.reduce((total, item) => total +item.qty * item.price, 0);
+  let subTotal = items.reduce((total, item) => total + item.qty * item.price, 0);
   let dilevery_fees = 20;
   let taxes = (subTotal * 0.5) / 100;
   let granTotal = Math.floor(subTotal + dilevery_fees + taxes);
