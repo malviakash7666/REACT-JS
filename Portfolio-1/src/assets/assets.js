@@ -17,8 +17,6 @@ import {
 
 import profileImg from "../assets/profile.avif";
 
-import projectImg5 from "../assets/project5.avif";
-import projectImg6 from "../assets/project6.avif";
 import jobPortal from "../assets/jobPortal.png";
 import food from "../assets/food-dileveriy.png"
 import portfolio from "../assets/portfolio.png"
@@ -123,53 +121,35 @@ export const projects = [
     tech: ["", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
     demo: "https://porofile-portfolio-akash.netlify.app",
-    code: "#",
+    code: "https://github.com/malviakash7666/portfolio-full-stack",
   },
-  {
-    title: "Chat App",
-    description:
-      "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description:
-      "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  },
+ 
 ];
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Full-Stack MERN Developer (Self-Projects)",
+    company: "Personal Portfolio",
+    duration: "2025 - Present",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "Built multiple MERN stack projects including a job portal, food delivery app, e-commerce admin panel, and a hospital management system. Implemented authentication, dashboards, API integration, and cloud deployment using Vercel and Render.",
     color: "purple",
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    role: "Frontend React Developer",
+    company: "Self-Learning & Practice",
+    duration: "2024 - 2025",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+      "Developed responsive UIs using React.js, Redux Toolkit, Context API, and custom components. Improved skills by building real-world websites and improving error-handling, routing, and state management.",
     color: "pink",
   },
   {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
+    role: "Web Development Intern (Freelance Style Practice)",
+    company: "Independent Work",
+    duration: "2022 - 2023",
     description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+      "Designed and built small websites for practice, including portfolio layouts, todo apps, and mini projects. Strengthened fundamentals in HTML, CSS, JavaScript, and Git/GitHub while preparing for internship opportunities.",
     color: "blue",
   },
 ];
+
