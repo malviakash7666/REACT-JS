@@ -1,95 +1,114 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import {
+  FaLightbulb,
+  FaPaintBrush,
+  FaCode,
+  FaReact,
+  FaServer,
+  FaMobileAlt,
+  FaTools,
+  FaNodeJs,
+  FaStripe,
+  FaVuejs,
+  FaFire,
+  FaDatabase,
+  FaCloud,
+  FaRobot,
+} from "react-icons/fa";
 
-import profileImg from '../assets/profile.avif';
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
+import profileImg from "../assets/profile.avif";
 
-import projectImg4 from '../assets/project4.avif';
-import projectImg5 from '../assets/project5.avif';
-import projectImg6 from '../assets/project6.avif';
-import jobPortal from "../assets/jobPortal.png"
+import projectImg5 from "../assets/project5.avif";
+import projectImg6 from "../assets/project6.avif";
+import jobPortal from "../assets/jobPortal.png";
+import food from "../assets/food-dileveriy.png"
+import portfolio from "../assets/portfolio.png"
+import ecommerce from "../assets/ecommerce.png"
 
 export const assets = {
-    profileImg,
-}
-
+  profileImg,
+};
 
 export const aboutInfo = [
-    {
-      icon: FaLightbulb,
-      title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
-      color: 'text-purple'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
-      color: 'text-pink'
-    },
-    {
-      icon: FaCode,
-      title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.',
-      color: 'text-blue'
-    }
-  ];
-
-
+  {
+    icon: FaLightbulb,
+    title: "Innovative",
+    description:
+      "I love creating unique solutions to complex problems with cutting-edge technologies.",
+    color: "text-purple",
+  },
+  {
+    icon: FaPaintBrush,
+    title: "Design Oriented",
+    description:
+      "Beautiful design and user experience are at the heart of everything I create.",
+    color: "text-pink",
+  },
+  {
+    icon: FaCode,
+    title: "Clean Code",
+    description:
+      "I write maintainable, efficient code following best practices and modern patterns.",
+    color: "text-blue",
+  },
+];
 
 export const skill = [
   {
-    title: 'Frontend Development',
+    title: "Frontend Development",
     icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'javascript', 'Tailwind',]
+    description:
+      "Building responsive and interactive user interfaces with modern frameworks.",
+    tags: ["React", "javascript", "Tailwind"],
   },
   {
-    title: 'Backend Development',
+    title: "Backend Development",
     icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express']
+    description: "Creating robust server-side applications and RESTful APIs.",
+    tags: ["Node.js", "Express"],
   },
   {
-    title: 'Database Management',
+    title: "Database Management",
     icon: FaDatabase,
-    description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB' ]
+    description:
+      "Designing and optimizing databases for performance and scalability.",
+    tags: ["MongoDB"],
   },
- 
- 
+
   {
-    title: 'Tools & Technologies',
+    title: "Tools & Technologies",
     icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Postman', 'vscode']
-  }
+    description:
+      "Essential tools and technologies I use in my development workflow.",
+    tags: ["Git & GitHub", "Postman", "vscode"],
+  },
 ];
-
-
 
 export const projects = [
   {
     title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
-    image: projectImg1,
+    description:
+      "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    image: ecommerce,
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "https://e-commerce-saxl.vercel.app",
+
+    code: "https://github.com/malviakash7666/E-commerce",
   },
   {
-    title: "Task Management App",
-    description: "A productivity application with drag-and-drop functionality and real-time updates.",
-    image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    title: "Food Dilevriy",
+    description:
+      "A modern and responsive food delivery web application built with React.js, offering seamless browsing of restaurants, easy menu selection, real-time cart updates, and fast checkout for a smooth ordering experience.",
+    image: food,
+    tech: ["React.js", "Tailwind CSS"],
+    icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
+    demo: "https://quickbite-akash-app.netlify.app",
+    code: "https://github.com/malviakash7666/Food_Dilevery",
   },
   {
     title: "Job find ",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    description:
+      "A mobile app for tracking workouts, nutrition, and health metrics.",
     image: jobPortal,
     tech: ["React.js", "express", "Mongodb", "Node.js"],
     icons: [FaReact, FaDatabase],
@@ -98,33 +117,35 @@ export const projects = [
   },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    description:
+      "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    image: portfolio,
+    tech: ["", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
+    demo: "https://porofile-portfolio-akash.netlify.app",
     code: "#",
   },
   {
     title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    description:
+      "A real-time chat application with group messaging, emojis, and file sharing.",
     image: projectImg5,
     tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
+    icons: [FaReact, FaNodeJs, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
     title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+    description:
+      "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
     image: projectImg6,
     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
     icons: [FaRobot, FaReact, FaCloud],
     demo: "#",
     code: "#",
-  }
+  },
 ];
-
 
 export const workData = [
   {
@@ -133,7 +154,7 @@ export const workData = [
     duration: "2020 - Present",
     description:
       "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-    color: "purple"
+    color: "purple",
   },
   {
     role: "Web Developer",
@@ -141,7 +162,7 @@ export const workData = [
     duration: "2018 - 2020",
     description:
       "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-    color: "pink"
+    color: "pink",
   },
   {
     role: "Junior Developer",
@@ -149,6 +170,6 @@ export const workData = [
     duration: "2016 - 2018",
     description:
       "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
-  }
+    color: "blue",
+  },
 ];

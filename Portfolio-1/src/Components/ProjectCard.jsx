@@ -15,8 +15,8 @@ const ProjectCard = ({title,description,image,tech,demo,code}) => {
                 })}
             </div>
             <div className="flex gap-2">
-                <Link to={demo} className='flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300' >View Demo</Link>
-                <Link to={code} className='flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple/20 transition duration-300'>Code</Link>
+                <Link to={demo} target='_blank' className='flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300' >View Demo</Link>
+                <Link to={code} target='_blank' className='flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple/20 transition duration-300'>Code</Link>
             </div>
         </div>
     </div>
